@@ -97,7 +97,9 @@ const allowedkeywords = (:dense,
     :trace_level,
     :store_trace,
     # Termination condition for solvers
-    :termination_condition)
+    :termination_condition,
+    # Method to modif perform_step!
+    :modif)
 
 const KWARGWARN_MESSAGE = """
                           Unrecognized keyword arguments found.
