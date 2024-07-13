@@ -99,7 +99,7 @@ const allowedkeywords = (:dense,
     # Termination condition for solvers
     :termination_condition,
     # Method to modif perform_step!
-    :modif)
+    :relaxation)
 
 const KWARGWARN_MESSAGE = """
                           Unrecognized keyword arguments found.
